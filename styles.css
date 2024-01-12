@@ -19,7 +19,7 @@ body {
 }
 .qr-card {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 8px;
+  border-radius: 12px;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -28,6 +28,7 @@ body {
   overflow: hidden;
   padding: 16px;
   width: 100%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .qr-info {
   padding: 0 26px;
