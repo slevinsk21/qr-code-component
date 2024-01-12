@@ -32,6 +32,11 @@ body {
 .qr-info {
   padding: 0 26px;
 }
+.qr-link:hover {
+  opacity: 0.9;
+  transform: scale(.99);
+  transition: .3s ease-in-out;
+}
 .qr-image {
   border-radius: 14px;
   margin-bottom: 14px;
